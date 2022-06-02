@@ -33,9 +33,11 @@ class _MatrizPageState extends State<MatrizPage> {
       child: Column(children: [
         Padding(
           padding: const EdgeInsets.all(16),
-          child: Row(children: [
-            Text("00", style: TextStyle(fontSize: 20),),
-            Spacer(),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+            Text("Total island: ", style: TextStyle(fontSize: 20),),
+
             Text("00", style: TextStyle(fontSize: 20),),
 
           ],),
